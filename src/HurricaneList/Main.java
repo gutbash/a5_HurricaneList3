@@ -86,7 +86,9 @@ public class Main {
                 case "exit":
                     exit = false;
                     break; // breaks from switch
-
+                default:
+                    System.out.println("ERROR: command not found");
+                    break;
             } // ends switch case
         } // ends while loop
     } // ends main method
