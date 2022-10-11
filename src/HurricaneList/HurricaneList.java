@@ -1,6 +1,6 @@
 //// HurricaneList
 // program for instantiating Linked Lists with nodes and traversal/read/write methods for CSCI 211
-// last edited Sep. 28, 2022 by S. Gutierrez
+// last edited Oct. 11, 2022 by S. Gutierrez
 
 package HurricaneList; // includes project package
 
@@ -73,6 +73,11 @@ public class HurricaneList {
         } // ends outer for loop
     } // ends sortWind() method
 
+    /**
+
+     * searchName()
+     * given a String name of Storm, traverses, finds, and prints matching name of Storm
+     */
     void searchName(String name) {
 
         // sets head as current Node at traversal start
@@ -107,6 +112,11 @@ public class HurricaneList {
 
     } // ends searchName() method
 
+    /**
+
+     * searchCategory()
+     * given an int category of Storm, traverses, finds, and prints matching category or categories of Storm
+     */
     void searchCategory(int category) {
 
         // sets head as current Node at traversal start
@@ -147,6 +157,11 @@ public class HurricaneList {
 
     } // ends searchCategory() method
 
+    /**
+
+     * searchMonth()
+     * given a String month of Storm, traverses, finds, and prints matching month(s) of Storm
+     */
     void searchMonth(String month) {
 
         // sets head as current Node at traversal start
@@ -362,5 +377,4 @@ public class HurricaneList {
 
         } // ends while loop traversal
     } // ends printReverse() method
-
 } // ends HurricaneList class

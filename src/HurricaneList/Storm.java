@@ -1,6 +1,6 @@
 //// HurricaneList
 // program for instantiating Linked Lists with nodes and traversal/read/write methods for CSCI 211
-// last edited Sep. 28, 2022 by S. Gutierrez
+// last edited Oct. 11, 2022 by S. Gutierrez
 
 package HurricaneList; // includes project package
 
